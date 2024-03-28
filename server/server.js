@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
   })
 })
 
-const PORT = 3000
+const PORT = 4000
 const HOST = 'localhost'
 
 server.listen(PORT, HOST, () => {
