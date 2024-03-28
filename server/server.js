@@ -8,5 +8,5 @@ const PORT = 3000
 const HOST = 'localhost'
 
 server.listen(PORT, HOST, () => {
-  console.log(`Server running at http://${HOST}:${PORT}/`)
+  console.info(`Server running at http://${HOST}:${PORT}/`)
 })
